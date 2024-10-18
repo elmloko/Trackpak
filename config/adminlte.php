@@ -781,6 +781,12 @@ return [
             'icon' => 'fas fa-user',
         ],
         [
+            'text' => 'Backups',
+            'url' => '/backups',
+            'can'  => 'users.index',
+            'icon' => 'fas fa-user',
+        ],
+        [
             'text' => 'Logs',
             'url' => '/log-viewer',
             'can'  => 'users.index',
